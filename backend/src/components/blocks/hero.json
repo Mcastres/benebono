@@ -1,0 +1,42 @@
+{
+  "collectionName": "components_blocks_heroes",
+  "info": {
+    "displayName": "hero",
+    "icon": "apps",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "hero_text": {
+      "type": "string"
+    },
+    "hero_sub_text": {
+      "type": "string"
+    },
+    "hero_image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "ctas": {
+      "displayName": "repeatable_buttons",
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.repeatable-buttons"
+    },
+    "background_color": {
+      "type": "enumeration",
+      "enum": [
+        "Orange",
+        "Green"
+      ],
+      "default": "Orange"
+    }
+  }
+}
